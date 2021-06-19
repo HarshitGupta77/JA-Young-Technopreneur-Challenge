@@ -1,6 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      <style>
+      .row {
+        display: flex;
+      }
+
+     .left {
+        flex: 35%;
+        padding: 15px 0;
+      }
+
+      .left h2 {
+        padding-left: 8px;
+      }
+
+     .right {
+        flex: 65%;
+        padding: 15px;
+      }
+
+     #mySearch {
+        width: 100%;
+        font-size: 18px;
+        padding: 11px;
+        border: 1px solid #ddd;
+      }
+
+     #myMenu {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      #myMenu li a {
+        padding: 12px;
+        text-decoration: none;
+        color: black;
+        display: block;
+      }
+
+      #myMenu li a:hover {
+        background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="left" style="background-color:#bbb;">
+        <h2>Menu</h2>
+        <input
+          type="text"
+          id="mySearch"
+            onkeyup="myFunction()"
+          placeholder="Search.."
+          title="Type in a category"
+        />
+        <ul id="myMenu">
+          <li>
+            <a href="#"
+              >type here</a
+            >
+          </li>
+          <li>
+            <a
+              href="Models.html"
+              >Models</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              >Type here</a
+            >
+          </li>
+          
+        <head>
+          <head>
+            <style>
+              img {
+                float: left;
+              }
+            </style>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -90,6 +171,23 @@
         </tr>
       </table>
     </div>
+    <script>
+            function myFunction() {
+              var input, filter, ul, li, a, i;
+              input = document.getElementById("mySearch");
+              filter = input.value.toUpperCase();
+              ul = document.getElementById("myMenu");
+              li = ul.getElementsByTagName("li");
+              for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+                } else {
+                  li[i].style.display = "none";
+                }
+              }
+            }
+          </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
