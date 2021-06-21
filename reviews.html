@@ -1,4 +1,4 @@
-<head>
+<!---<head>
 <style>
       .row {
         display: flex;
@@ -120,6 +120,459 @@
           </script>
           
           </html>
-          
-         
+          --->
+
+
+
+
+
+
+
+<!--doctype html-->
+<html>
+<head>
+  <style>
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+.testimonial-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-heading h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #202020;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.testimonial-heading span{
+    font-size: 1.3rem;
+    color: #252525;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.testimonial-box{
+    width:500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.name-user span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+.reviews{
+    color: #f9d71c;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.client-comment p{
+    font-size: 0.9rem;
+    color: #4b4b4b;
+}
+.testimonial-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+ 
+@media(max-width:1060px){
+    .testimonial-box{
+        width:45%;
+        padding: 10px;
+    }
+}
+@media(max-width:790px){
+    .testimonial-box{
+        width:100%;
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:340px){
+    .box-top{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .reviews{
+        margin-top: 10px;
+    }
+}
+::selection{
+    color: #ffffff;
+    background-color: #252525;
+}
+
+  </style>
+  </head>
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Testimonial HTML</title>
+    <!--Stylesheet--------------------------->
+    <link rel="reviewssheet" href="css/reviews.css" />
+    <!--Fav-icon------------------------------>
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <!--poppins-font-family------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="reviewssheet"
+    />
+    <!--using-Font-Awesome-------------------->
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Testimonials------------------->
+    <section id="testimonials">
+      <!--heading--->
+      <div class="testimonial-heading"><br>
+        <span>Comments</span><br>
+        <h1>Clients Says</h1><br>
+      </div>
+      <!--testimonials-box-container------>
+      <div class="testimonial-box-container">
+        <!--BOX-1-------------->
+        <div class="testimonial-box">
+          <!--top------------------------->
+          <div class="box-top">
+            <!--profile----->
+            <div class="profile">
+              <!--img---->
+              <!----       <div class="profile-img">
+                <img src="images/c-1.jpg" />
+              </div>
+              
+              <!--name-and-username-->
+              <div class="name-user">
+                <strong>Touseeq Ijaz</strong>
+                <span>@touseeqijazweb</span>
+              </div>
+            </div>
+            <!--reviews------>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i
+              ><!--Empty star-->
+            </div>
+          </div>
+          <!--Comments---------------------------------------->
+          <div class="client-comment">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem, quaerat quis? Provident temporibus architecto
+              asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam
+              tenetur voluptates incidunt blanditiis sed atque cumque.
+            </p>
+          </div>
+        </div>
+        <!--BOX-2-------------->
+        <div class="testimonial-box">
+          <!--top------------------------->
+          <div class="box-top">
+            <!--profile----->
+            <div class="profile">
+              <!--img---->
+              <!----      <div class="profile-img">
+                <img src="images/c-2.jpg" />
+              </div>
+              <!--name-and-username-->
+              <div class="name-user">
+                <strong>J.K Rowling</strong>
+                <span>@jkrowling</span>
+              </div>
+            </div>
+            <!--reviews------>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i
+              ><!--Empty star-->
+            </div>
+          </div>
+          <!--Comments---------------------------------------->
+          <div class="client-comment">
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem, quaerat quis? Provident temporibus architecto
+              asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam
+              tenetur voluptates incidunt blanditiis sed atque cumque.
+            </p>
+          </div>
+        </div>
+        <!--BOX-3-------------->
+        <div class="testimonial-box">
+          <!--top------------------------->
+          <div class="box-top">
+            <!--profile----->
+            <div class="profile">
+              <!--img---->
+              <!----      <div class="profile-img">
+                <img src="images/c-3.jpg" />
+              </div>
+              <!--name-and-username-->
+              <div class="name-user">
+                <strong>Harry Potter</strong>
+                <span>@DanielRedclief</span>
+              </div>
+            </div>
+            <!--reviews------>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i
+              ><!--Empty star-->
+            </div>
+          </div>
+          <!--Comments---------------------------------------->
+          <div class="client-comment">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem, quaerat quis? Provident temporibus architecto
+              asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam
+              tenetur voluptates incidunt blanditiis sed atque cumque.
+            </p>
+          </div>
+        </div>
+        <!--BOX-4-------------->
+        <div class="testimonial-box">
+          <!--top------------------------->
+          <div class="box-top">
+            <!--profile----->
+            <div class="profile">
+              <!--img---->
+              <!----          <div class="profile-img">
+                <img src="images/c-4.jpg" />
+              </div>
+              <!--name-and-username-->
+              <div class="name-user">
+                <strong>Oliva</strong>
+                <span>@Olivaadward</span>
+              </div>
+            </div>
+            <!--reviews------>
+            <div class="reviews">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i
+              ><!--Empty star-->
+            </div>
+          </div>
+          <!--Comments---------------------------------------->
+          <div class="client-comment">
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem, quaerat quis? Provident temporibus architecto
+              asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam
+              tenetur voluptates incidunt blanditiis sed atque cumque.
+            </p>
+          </div>
+        </div>
+      </div><br><br><br><br>
+    </section>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(70, 68, 68);
+        border-radius: 4px;
+        resize: vertical;
+      }
+      input[type="email"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(70, 68, 68);
+        border-radius: 4px;
+        resize: vertical;
+      }
+
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+
+      input[type="submit"] {
+        background-color: rgb(37, 116, 161);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    </style>
+  </head>
+  <body>
+    <h2>Type a Review</h2>
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-25">
+            <label for="Name">Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="Name"
+              name="Name"
+              placeholder="Your name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Mail Id</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="email"
+              id="email"
+              name="mailid"
+              placeholder="Your mail id.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="feed_back">Feed Back</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height:200px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
           
