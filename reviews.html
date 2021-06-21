@@ -126,134 +126,130 @@
 
 
 
-
-
-
 <!--doctype html-->
 <html>
-<head>
-  <style>
-  *{
-    margin: 0px;
-    padding: 0px;
-    font-family: poppins;
-    box-sizing: border-box;
-}
-a{
-    text-decoration: none;
-}
-#testimonials{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width:100%;
-}
-.testimonial-heading{
-    letter-spacing: 1px;
-    margin: 30px 0px;
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.testimonial-heading h1{
-    font-size: 2.2rem;
-    font-weight: 500;
-    background-color: #202020;
-    color: #ffffff;
-    padding: 10px 20px;
-}
-.testimonial-heading span{
-    font-size: 1.3rem;
-    color: #252525;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.testimonial-box-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width:100%;
-}
-.testimonial-box{
-    width:500px;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 15px;
-    cursor: pointer;
-}
-
-.profile{
-    display: flex;
-    align-items: center;
-}
-.name-user{
-    display: flex;
-    flex-direction: column;
-}
-.name-user strong{
-    color: #3d3d3d;
-    font-size: 1.1rem;
-    letter-spacing: 0.5px;
-}
-.name-user span{
-    color: #979797;
-    font-size: 0.8rem;
-}
-.reviews{
-    color: #f9d71c;
-}
-.box-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-.client-comment p{
-    font-size: 0.9rem;
-    color: #4b4b4b;
-}
-.testimonial-box:hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
-}
- 
-@media(max-width:1060px){
-    .testimonial-box{
-        width:45%;
-        padding: 10px;
-    }
-}
-@media(max-width:790px){
-    .testimonial-box{
-        width:100%;
-    }
-    .testimonial-heading h1{
-        font-size: 1.4rem;
-    }
-}
-@media(max-width:340px){
-    .box-top{
-        flex-wrap: wrap;
+  <head>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: poppins;
+        box-sizing: border-box;
+      }
+      a {
+        text-decoration: none;
+      }
+      #testimonials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+      }
+      .testimonial-heading {
+        letter-spacing: 1px;
+        margin: 30px 0px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .testimonial-heading h1 {
+        font-size: 2.2rem;
+        font-weight: 500;
+        background-color: #202020;
+        color: #ffffff;
+        padding: 10px 20px;
+      }
+      .testimonial-heading span {
+        font-size: 1.3rem;
+        color: #252525;
         margin-bottom: 10px;
-    }
-    .reviews{
-        margin-top: 10px;
-    }
-}
-::selection{
-    color: #ffffff;
-    background-color: #252525;
-}
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .testimonial-box-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .testimonial-box {
+        width: 500px;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 15px;
+        cursor: pointer;
+      }
 
-  </style>
+      .profile {
+        display: flex;
+        align-items: center;
+      }
+      .name-user {
+        display: flex;
+        flex-direction: column;
+      }
+      .name-user strong {
+        color: #3d3d3d;
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+      }
+      .name-user span {
+        color: #979797;
+        font-size: 0.8rem;
+      }
+      .reviews {
+        color: #f9d71c;
+      }
+      .box-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .client-comment p {
+        font-size: 0.9rem;
+        color: #4b4b4b;
+      }
+      .testimonial-box:hover {
+        transform: translateY(-10px);
+        transition: all ease 0.3s;
+      }
+
+      @media (max-width: 1060px) {
+        .testimonial-box {
+          width: 45%;
+          padding: 10px;
+        }
+      }
+      @media (max-width: 790px) {
+        .testimonial-box {
+          width: 100%;
+        }
+        .testimonial-heading h1 {
+          font-size: 1.4rem;
+        }
+      }
+      @media (max-width: 340px) {
+        .box-top {
+          flex-wrap: wrap;
+          margin-bottom: 10px;
+        }
+        .reviews {
+          margin-top: 10px;
+        }
+      }
+      ::selection {
+        color: #ffffff;
+        background-color: #252525;
+      }
+    </style>
   </head>
-  
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, intial-scale=1.0" />
@@ -278,9 +274,11 @@ a{
     <!--Testimonials------------------->
     <section id="testimonials">
       <!--heading--->
-      <div class="testimonial-heading"><br>
-        <span>Comments</span><br>
-        <h1>Clients Says</h1><br>
+      <div class="testimonial-heading">
+        <br />
+        <span>Comments</span><br />
+        <h1>Clients Says</h1>
+        <br />
       </div>
       <!--testimonials-box-container------>
       <div class="testimonial-box-container">
@@ -350,7 +348,7 @@ a{
           <!--Comments---------------------------------------->
           <div class="client-comment">
             <p>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Exercitationem, quaerat quis? Provident temporibus architecto
               asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam
               tenetur voluptates incidunt blanditiis sed atque cumque.
@@ -422,33 +420,18 @@ a{
           <!--Comments---------------------------------------->
           <div class="client-comment">
             <p>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Exercitationem, quaerat quis? Provident temporibus architecto
               asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam
               tenetur voluptates incidunt blanditiis sed atque cumque.
             </p>
           </div>
         </div>
-      </div><br><br><br><br>
+      </div>
+      <br /><br /><br /><br />
     </section>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!DOCTYPE html>
 <html>
@@ -575,5 +558,3 @@ a{
     </div>
   </body>
 </html>
-
-          
