@@ -1,101 +1,81 @@
+<!DOCTYPE html <html lang="en">
+<head>
+  <style>
+    .row {
+      display: flex;
+    }
 
-    <!DOCTYPE html
-<html lang="en">
-  <head>
-      <style>
-      .row {
-        display: flex;
-      }
+    .left {
+      flex: 35%;
+      padding: 15px 0;
+    }
 
-     .left {
-        flex: 35%;
-        padding: 15px 0;
-      }
+    .left h2 {
+      padding-left: 8px;
+    }
 
-      .left h2 {
-        padding-left: 8px;
-      }
+    .right {
+      flex: 65%;
+      padding: 15px;
+    }
 
-     .right {
-        flex: 65%;
-        padding: 15px;
-      }
+    #mySearch {
+      width: 100%;
+      font-size: 18px;
+      padding: 11px;
+      border: 1px solid #ddd;
+    }
 
-     #mySearch {
-        width: 100%;
-        font-size: 18px;
-        padding: 11px;
-        border: 1px solid #ddd;
-      }
+    #myMenu {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
 
-     #myMenu {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-      }
+    #myMenu li a {
+      padding: 12px;
+      text-decoration: none;
+      color: black;
+      display: block;
+    }
 
-      #myMenu li a {
-        padding: 12px;
-        text-decoration: none;
-        color: black;
-        display: block;
-      }
+    #myMenu li a:hover {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="left" style="background-color:#ffffff;">
+      <h2>Menu</h2>
+      <input
+        type="text"
+        id="mySearch"
+        onkeyup="myFunction()"
+        placeholder="Search.."
+        title="Type in a category"
+      />
+      <ul id="myMenu">
+        <li>
+          <a href="OurProject.html">Our Project</a>
+        </li>
 
-      #myMenu li a:hover {
-        background-color: #eee;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="row">
-      <div class="left" style="background-color:#ffffff;">
-        <h2>Menu</h2> 
-        <input
-          type="text"
-          id="mySearch"
-            onkeyup="myFunction()"
-          placeholder="Search.."
-          title="Type in a category"
-        />
-        <ul id="myMenu">    
-          <li>
-            <a
-              href="OurProject.html"
-              >Our Project</a
-            >
-          </li>
-          
-          <li>
-            <a
-              href="Ourdesigns.html"
-              >Our Designs</a
-            >
-          </li>
-          <li>
-            <a
-              href="SpareParts.html"
-              >Spare parts</a
-            >
-          </li> 
-           <li>
-            <a
-              href="Budget.html"
-              >Budget</a
-            >
-          </li>
-         <li>
-            <a
-              href="reviews.html"
-              >Reviews</a
-            >
-          </li>
-         <li>
-            <a
-              href="contactus.html"
-              >Contact Us</a
-            >
-          </li>
-          
+        <li>
+          <a href="Ourdesigns.html">Our Designs</a>
+        </li>
+        <li>
+          <a href="SpareParts.html">Spare parts</a>
+        </li>
+        <li>
+          <a href="Budget.html">Budget</a>
+        </li>
+        <li>
+          <a href="reviews.html">Reviews</a>
+        </li>
+        <li>
+          <a href="contactus.html">Contact Us</a>
+        </li>
+
         <head>
           <head>
             <style>
@@ -104,36 +84,39 @@
               }
             </style>
 
-<meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
+            <meta charset="utf-8" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1"
+            />
+            <link
+              href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+              crossorigin="anonymous"
+            />
 
-    <title>YTC 2021</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <img
-        style="width:50vw"
-        src="https://cdn.glitch.com/03a72d85-6e4d-42c7-87e0-b96bd5056321%2Fja%20logo.png?v=1622728276915"
-     /><br><br><br><br><br><br><br><br><br><br>
+            <title>YTC 2021</title>
+          </head>
+          <body>
+            <div class="container-fluid">
+              <img
+                style="width:50vw"
+                src="https://cdn.glitch.com/03a72d85-6e4d-42c7-87e0-b96bd5056321%2Fja%20logo.png?v=1622728276915"
+              /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-
-      <p><i>Team Unstoppable</i><br />Members:</p>
-      <ul>
-        <li>Ananya Sudarsan</li>
-        <li>Harshit Neeraj Gupta</li>
-        <li>Khushi Tyagi</li>
-        <li>Nitya Bimal Kaniyamparambil</li>
-      </ul><br>
-
-      <li>
-            <a
-              href="OurProject.html"
-              >Our Project</a
-            >
-          </li>
+              <p><i>Team Unstoppable</i><br />Members:</p>
+              <ul>
+                <li>Ananya Sudarsan</li>
+                <li>Harshit Neeraj Gupta</li>
+                <li>Khushi Tyagi</li>
+                <li>Nitya Bimal Kaniyamparambil</li>
+              </ul>
+              <br />
+            </div>
+          </body>
+        </head>
+      </ul>
+    </div>
+  </div>
+</body>
