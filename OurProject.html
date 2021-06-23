@@ -1,7 +1,6 @@
-<!DOCTYPE html
-<html lang="en">
-  <head>
-      <style>
+<html>
+</html><head>
+<style>
       .row {
         display: flex;
       }
@@ -48,7 +47,7 @@
   <body>
     <div class="row">
       <div class="left" style="background-color:#ffffff;">
-        <h2>Menu</h2> 
+        <h2>Menu</h2>
         <input
           type="text"
           id="mySearch"
@@ -56,7 +55,12 @@
           placeholder="Search.."
           title="Type in a category"
         />
-        <ul id="myMenu">    
+        <ul id="myMenu">
+          <li>
+            <a href="index.html"
+              >Main Page</a
+            >
+          </li>
           
           <li>
             <a
@@ -67,27 +71,32 @@
           <li>
             <a
               href="SpareParts.html"
-              >Spare parts</a
-            >
-          </li> 
-           <li>
-            <a
-              href="Budget.html"
-              >Budget</a
+              >Spare Parts</a
             >
           </li>
-         <li>
+          <li>
+            <a
+              href="SpareParts.html"
+              >Spare Parts</a
+            >
+          </li>
+          <li>
             <a
               href="reviews.html"
               >Reviews</a
             >
           </li>
-         <li>
+          <li>
             <a
               href="contactus.html"
               >Contact Us</a
             >
           </li>
+        </ul>
+      </div>
+    </div>
+</body>
+          
           
         <head>
           <head>
@@ -96,4 +105,30 @@
                 float: left;
               }
             </style>
-            </html>
+          </head>
+          <body>  
+          <script>
+            function myFunction() {
+              var input, filter, ul, li, a, i;
+              input = document.getElementById("mySearch");
+              filter = input.value.toUpperCase();
+              ul = document.getElementById("myMenu");
+              li = ul.getElementsByTagName("li");
+              for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+                } else {
+                  li[i].style.display = "none";
+                }
+              }
+            }
+          </script>
+          </body>
+          </head>
+
+          
+    
+          
+         
+          
