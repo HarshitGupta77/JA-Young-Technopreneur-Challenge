@@ -1,94 +1,71 @@
-
-<html>
+<!DOCTYPE html <html lang="en">
 <head>
-<style>
-      .row {
-        display: flex;
-      }
+  <style>
+    .row {
+      display: flex;
+    }
 
-     .left {
-        flex: 35%;
-        padding: 15px 0;
-      }
+    .left {
+      flex: 35%;
+      padding: 15px 0;
+    }
+    > .left h2 {
+      padding-left: 8px;
+    }
 
-      .left h2 {
-        padding-left: 8px;
-      }
+    .right {
+      flex: 65%;
+      padding: 15px;
+    }
 
-     .right {
-        flex: 65%;
-        padding: 15px;
-      }
+    #mySearch {
+      width: 100%;
+      font-size: 18px;
+      padding: 11px;
+      border: 1px solid #ddd;
+    }
 
-     #mySearch {
-        width: 100%;
-        font-size: 18px;
-        padding: 11px;
-        border: 1px solid #ddd;
-      }
+    #myMenu {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
 
-     #myMenu {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-      }
+    #myMenu li a {
+      padding: 12px;
+      text-decoration: none;
+      color: black;
+      display: block;
+    }
 
-      #myMenu li a {
-        padding: 12px;
-        text-decoration: none;
-        color: black;
-        display: block;
-      }
-
-      #myMenu li a:hover {
-        background-color: #eee;
-      }
-    </style>
-  </head>
-  <head>
-    <style>
-      img{
-  padding-top: 0px;
-  padding-right: 60px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-}
-      h1{
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-        
-}
-    </style>
-  </head>
-  <body>
-    <h1>
-      The TAG System
-    </h1>
-    <img width="400px" src="https://cdn.glitch.com/2db85572-1ff5-4426-b0d6-a898395696f6%2F1.png?v=1624502248671">
-    <img width="750px" src="https://cdn.glitch.com/2db85572-1ff5-4426-b0d6-a898395696f6%2FTAG%20Systems.PNG?v=1624502992329"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div class="row">
-      <div class="left" style="background-color:#bbb;">
-        <h2>Menu</h2>
-        <input
-          type="text"
-          id="mySearch"
-            onkeyup="myFunction()"
-          placeholder="Search.."
-          title="Type in a category"        <ul d=myMenu">
-          <li>
-          <a href="OurProject.html">Our Project</a>
+    #myMenu li a:hover {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <div class="left" style="background-color:#bbb;">
+      <h2>Menu</h2>
+      <input
+        type="text"
+        id="mySearch"
+        onkeyup="myFunction()"
+        placeholder="Search.."
+        title="Type in a category"
+      />
+      <ul id="myMenu">
+        <li>
+          <a href="Models.html">Models</a>
         </li>
-
         <li>
           <a href="Ourdesigns.html">Our Designs</a>
         </li>
         <li>
-          <a href="Budget.html">Sales Price</a>
+          <a href="SpareParts.html">Spare parts</a>
         </li>
-          <li>
-          <a href="SpareParts.html">Spare Parts</a>
+        <li>
+          <a href="Budget.html">Budget</a>
         </li>
         <li>
           <a href="reviews.html">Reviews</a>
@@ -97,33 +74,13 @@
           <a href="contactus.html">Contact Us</a>
         </li>
 
-          
-        <head>
+        <html>
+          <head>
             <style>
               img {
                 float: left;
               }
             </style>
-          </head>
-          
-          <script>
-            function myFunction() {
-              var input, filter, ul, li, a, i;
-              input = document.getElementById("mySearch");
-              filter = input.value.toUpperCase();
-              ul = document.getElementById("myMenu");
-              li = ul.getElementsByTagName("li");
-              for (i = 0; i < li.length; i++) {
-                a = li[i].getElementsByTagName("a")[0];
-                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                  li[i].style.display = "";
-                } else {
-                  li[i].style.display = "none";
-                }
-              }
-            }
-          </script>
-
             <meta charset="utf-8" />
             <meta
               name="viewport"
@@ -137,20 +94,19 @@
             />
 
             <title>YTC 2021</title>
-          <head>
+          </head>
           <body>
             <div class="container-fluid">
               <img
                 style="width:50vw"
                 src="https://cdn.glitch.com/03a72d85-6e4d-42c7-87e0-b96bd5056321%2Fja%20logo.png?v=1622728276915"
               /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
               <p><i>Team Unstoppable</i><br />Members:</p>
               <ul>
                 <li>Ananya Sudarsan</li>
-                <li>Harshit Neeraj Gupta</li>
-                <li>Khushi Tyagi</li>
                 <li>Nitya Bimal Kaniyamparambil</li>
+                <li>Khushi Tyagi</li>
+                <li>Harshit Neeraj Gupta</li>
               </ul>
               <br />
             </div>
