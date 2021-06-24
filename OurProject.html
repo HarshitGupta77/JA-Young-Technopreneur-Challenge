@@ -1,11 +1,11 @@
 <html>
   <head>
-    <style>
+<style>
       .row {
         display: flex;
       }
 
-      .left {
+     .left {
         flex: 35%;
         padding: 15px 0;
       }
@@ -14,22 +14,23 @@
         padding-left: 8px;
       }
 
-      .right {
+     .right {
         flex: 65%;
         padding: 15px;
       }
 
-      #mySearch {
+     #mySearch {
         width: 100%;
         font-size: 18px;
         padding: 11px;
         border: 1px solid #ddd;
       }
 
-      #myMenu {
+     #myMenu {
         list-style-type: none;
         padding: 0;
         margin: 0;
+       font-size: 20px;
       }
 
       #myMenu li a {
@@ -47,33 +48,11 @@
   <body>
     <div class="row">
       <div class="left" style="background-color:#ffffff;">
-        <h2>Menu</h2>
-        <input
-          type="text"
-          id="mySearch"
-          onkeyup="myFunction()"
-          placeholder="Search.."
-          title="Type in a category"
-        />
         <ul id="myMenu">
           <li>
-            <a href="index.html">Main Page</a>
-          </li>
-
-          <li>
-            <a href="Ourdesigns.html">Our Designs</a>
-          </li>
-          <li>
-            <a href="SpareParts.html">Spare Parts</a>
-          </li>
-          <li>
-            <a href="Budget.html">Sales  </a>
-          </li>
-          <li>
-            <a href="reviews.html">Reviews</a>
-          </li>
-          <li>
-            <a href="contactus.html">Contact Us</a>
+            <a href="index.html"
+              >Home</a
+            >
           </li>
         </ul>
       </div>
@@ -112,65 +91,96 @@
     <div class="container-fluid">
 
       <h1>
-        Project
-      </h1>
+                Project
+              </h1>
 
-      <p>
-        Sustainability Goal.
-        <br>
-        This is a 'City in Nature' and 'Sustainable Living' from Singapore's 2030 Sustainability Plan (Green Plan).
-      </p>
+              <p>
+                This is a UN/Green Plan/South West objective - Write here the
+                objective
+              </p>
 
-      <h1>
-        Project Description
-      </h1>
-      <p>
-        Write here your project description
-      </p>
+              <h1>
+                Project Description
+              </h1>
+              <p>
+                Write here your project description
+              </p>
 
+              <h1>
+                Project Prototype
+              </h1>
+              <p>
+                Write here your prototype description
+              </p>
 
-      <h1>
-        Project Description
-      </h1>
-      <p>
-        Write here your project description
-      </p>
-      <img
-        style="width:100vw"
-        src="https://cdn.glitch.com/03a72d85-6e4d-42c7-87e0-b96bd5056321%2Fprototype.png?v=1622727983513"
-      />
-      <h1>
-        Use of the funds
-      </h1>
-      <p>
-        Write here your use of the funds
-      </p>
+              <h1>
+                Project Description
+              </h1>
+              <p>
+                Write here your project description
+              </p>
+              <img
+                style="width:100vw"
+                src="https://cdn.glitch.com/03a72d85-6e4d-42c7-87e0-b96bd5056321%2Fprototype.png?v=1622727983513"
+              />
 
-       <h1>
-      Total impact
-    </h1>
-    <p>
-      Write here your total impact
-    </p>
-    <table class="table">
-      <tr>
-      <th></th><th>Year 1</th><th>Year 2</th>
-      </tr>
-      <tr>
-      <th>Cost</th><td></td><td></td>
-      </tr>
-      <tr>
-      <th>Impact</th><td></td><td></td>
-      </tr>
-    </table>
-    
-       </div>
-    
-    
-    
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+              <h1>
+                Use of the funds
+              </h1>
+              <p>
+                Write here your use of the funds
+              </p>
 
-  </body>
-</html>
+              <h1>
+                Total impact
+              </h1>
+              <p>
+                Write here your total impact
+              </p>
+              <table class="table">
+                <tr>
+                  <th></th>
+                  <th>Year 1</th>
+                  <th>Year 2</th>
+                </tr>
+                <tr>
+                  <th>Cost</th>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th>Impact</th>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+            <script>
+              function myFunction() {
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("mySearch");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("myMenu");
+                li = ul.getElementsByTagName("li");
+                for (i = 0; i < li.length; i++) {
+                  a = li[i].getElementsByTagName("a")[0];
+                  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                  } else {
+                    li[i].style.display = "none";
+                  }
+                }
+              }
+            </script>
+
+            <script
+              src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+              crossorigin="anonymous"
+            ></script>
+          </body>
+        </html>
+      </ul>
+    </div>
+  </div>
+</body>
