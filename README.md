@@ -26,7 +26,7 @@ Thank you for visiting TAG - The Aqua Gardens! We hope you find our project as e
 
 This project was developed by our dedicated team, **Team Unstoppable**, consisting of four enthusiastic members who are passionate about addressing climate change and promoting environmental sustainability.
 
-Join us in making a positive impact on our planet by understanding and managing our carbon emissions!
+Join us in making a positive impact on our planet by understanding and managing your carbon emissions!
 
 #### Team Unstoppable: 
 
