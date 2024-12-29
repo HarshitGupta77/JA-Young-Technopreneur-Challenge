@@ -2,7 +2,7 @@
 
 Welcome to the official website of **TAG (The Aqua Gardens)**, developed by **Team Unstoppable** for the **JA Young Technopreneur Challenge**. Our project aims to promote sustainable living in line with the United Nations Sustainable Development Goals by creating an innovative hydroponics and aquaponics system for growing organic vegetables at home.
 
-## Website Overview
+## 🌐 Website Overview
 
 This website serves as a comprehensive platform where you can explore various aspects of our project. The homepage features our project name, TAG, accompanied by our custom-designed logo and the logo of **JA Singapore**. You can find a menu with hyperlinks to various sections of our project:
 
@@ -15,7 +15,7 @@ This website serves as a comprehensive platform where you can explore various as
 
 Each page includes a convenient link back to the homepage for easy navigation.
 
-## Collaboration
+## 💻 Collaboration
 
 Our website was collaboratively built using **Glitch**, allowing us to seamlessly work together as a team to bring our vision to life.
 We invite you to explore our pages, learn more about our project, and join us in promoting sustainable living through innovative gardening solutions!
