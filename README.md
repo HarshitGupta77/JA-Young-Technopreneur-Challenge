@@ -6,12 +6,12 @@ Welcome to the official website for **TAG (The Aqua Gardens)**, developed by **T
 
 The homepage features our project name, TAG, accompanied by our custom-designed logo and the logo of **JA Singapore**. You can find a menu with hyperlinks to various sections of our project:
 
-- **[Our Project](#)**: Discover our vision, watch the prototype video, and learn how we plan to utilize the funds to make a difference.
-- **[Our Design](#)**: Explore the three models of our project—TAG 1, TAG 1.5, and TAG 2—with detailed design specifications.
-- **[Spare Parts](#)**: Browse through a comprehensive list of all spare parts, complete with names, photos, and prices.
-- **[Sales Price](#)**: Check out the pricing for TAG 1 and find out how to upgrade to higher models, including additional features.
-- **[Reviews](#)**: Read testimonials from our clients and share your own feedback.
-- **[Contact Us](#)**: Get in touch with us through our social media channels (Instagram, Facebook, YouTube, Twitter, LinkedIn), phone number, and email address.
+- **Our Project**: Discover our vision, watch the prototype video, and learn how we plan to utilize the funds to make a difference.
+- **Our Design**: Explore the three models of our project—TAG 1, TAG 1.5, and TAG 2—with detailed design specifications.
+- **Spare Parts**: Browse through a comprehensive list of all spare parts, complete with names, photos, and prices.
+- **Sales Price**: Check out the pricing for TAG 1 and find out how to upgrade to higher models, including additional features.
+- **Reviews**: Read testimonials from our clients and share your own feedback.
+- **Contact Us**: Get in touch with us through our social media channels (Instagram, Facebook, YouTube, Twitter, LinkedIn), phone number, and email address.
 
 Each page includes a convenient link back to the homepage for easy navigation.
 
