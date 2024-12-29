@@ -1,6 +1,6 @@
 # TAG - The Aqua Gardens
 
-Welcome to the official website of **TAG** (The Aqua Gardens), developed by **Team Unstoppable** for the **JA Young Technopreneur Challenge**. Our project aims to promote sustainable living in line with the United Nations Sustainable Development Goals by creating an innovative hydroponics and aquaponics system for growing organic vegetables at home.
+Welcome to the official website of **TAG (The Aqua Gardens)**, developed by **Team Unstoppable** for the **JA Young Technopreneur Challenge**. Our project aims to promote sustainable living in line with the United Nations Sustainable Development Goals by creating an innovative hydroponics and aquaponics system for growing organic vegetables at home.
 
 ## Website Overview
 
