@@ -6,7 +6,6 @@ Welcome to the official website of **TAG (The Aqua Gardens)**, developed by **Te
 
 This website serves as a comprehensive platform where you can explore various aspects of our project. The homepage features our project name, TAG, accompanied by our custom-designed logo and the logo of **JA Singapore**. You can find a menu with hyperlinks to various sections of our project:
 
-### Navigation Menu:
 - **Our Project**: Discover in-depth details about TAG, including a video prototype showcasing our system, our funding goals, and the positive environmental impacts we aim to achieve.
 - **Our Designs**: Explore the three distinct designs of our project — TAG 1, TAG 1.5, and TAG 2 — with detailed design specifications each with unique features and benefits.
 - **Spare Parts**: Access a list of all spare parts needed for the TAG systems, complete with names, images, and prices.
